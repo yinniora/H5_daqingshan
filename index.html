@@ -1,0 +1,1430 @@
+
+
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="keywords" content="123"/>
+
+        <meta name="description" content="123"/>
+
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        <meta http-equiv="X-UA-Compatible" content="chrome=1,ie=edge">
+
+        <title>绿色生态打底 看大青山南坡华丽蝶变</title>
+
+        <link rel="stylesheet" href="./css/base.css">
+
+        <link rel="stylesheet" href="./css/swiper.min.css">
+
+        <link rel="stylesheet" href="./css/animate.css">
+
+        <link rel="stylesheet" href="./css/index.css">
+
+        <!--        <script src="./js/vconcole/vconsole.min.js"></script>-->
+
+        <script src="./js/wow/wow.min.js"></script>
+
+        <script src="./js/greensockjs/TweenMax.min.js"></script>
+
+        <script src="./js/bodymovin/lottie.js"></script>
+
+        <script src="./js/jquery-3.2.1.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="music" onclick='triggerBgMusic()'>
+
+            <div class="control">
+
+                <audio id='audio' autoplay="autoplay" loop>
+
+                    <source src="./resource/music/2.mp3" type="audio/mp3">
+
+                </audio>
+
+            </div>
+
+        </div>
+
+        <!--开屏-->
+
+        <div class="first">
+
+            <div class="content">
+
+                <img class="background" src="./resource/img/first/mountainBackground.png" alt="">
+
+                <img class="kan animated zoomIn" src="./resource/img/first/fontKan.png" alt="">
+
+                <img class="circle01 animated rotateIn delay-1s" src="./resource/img/first/circle01.png" alt="">
+
+                <img class="fontHualidiebian animated zoomIn delay-2s slow" src="./resource/img/first/fontHualidiebian.png" alt="">
+
+                <img class="fontDaqingshannanpo animated zoomIn delay-1s slow" src="./resource/img/first/fontDaqingshannanpo.png" alt="">
+
+                <img class="fontLvse  animated zoomIn delay-3s slow" src="./resource/img/first/fontLvse.png" alt="">
+
+                <img class="line01 animated zoomIn delay-3s slow" src="./resource/img/first/line01.png" alt="">
+
+                <img class="cloud1 animated shake infinite" src="./resource/img/first/cloud1.png" alt="">
+
+                <img class="cloud2 animated shake infinite" src="./resource/img/first/cloud2.png" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="second">
+
+            <div class="content">
+
+                <div class="font1">
+
+                    <div class="font1_1 ">
+
+                        <p>清</p>
+
+                        <p>晨</p>
+
+                        <p>,</p>
+
+                        <p>沿</p>
+
+                        <p>着</p>
+
+                        <p>青</p>
+
+                        <p>大</p>
+
+                        <p>线</p>
+
+                        <p>穿</p>
+
+                        <p>行</p>
+
+                        <p>,</p>
+
+                        <p>树</p>
+
+                        <p>木</p>
+
+                        <p>丛</p>
+
+                        <p>生、</p>
+
+                    </div>
+
+                    <div class="font1_2 ">
+
+                        <p>百</p>
+
+                        <p>草</p>
+
+                        <p>丰</p>
+
+                        <p>茂</p>
+
+                        <p>,</p>
+
+                        <p>山</p>
+
+                        <p>鹰</p>
+
+                        <p>盘</p>
+
+                        <p>旋、</p>
+
+                        <p>野</p>
+
+                        <p>兔</p>
+
+                        <p>跳</p>
+
+                        <p>跃。</p>
+
+                        <p>沿</p>
+
+                    </div>
+
+                    <div class="font1_3 ">
+
+                        <p>着</p>
+
+                        <p>大</p>
+
+                        <p>青</p>
+
+                        <p>山</p>
+
+                        <p>南</p>
+
+                        <p>坡</p>
+
+                        <p>一</p>
+
+                        <p>路</p>
+
+                        <p>往</p>
+
+                        <p>东</p>
+
+                        <p>,</p>
+
+                        <p>路</p>
+
+                        <p>边</p>
+
+                        <p>的</p>
+
+                        <p>生</p>
+
+                        <p>态</p>
+
+                    </div>
+
+                    <div class="font1_4 ">
+
+                        <p>生</p>
+
+                        <p>态</p>
+
+                        <p>林</p>
+
+                        <p>随</p>
+
+                        <p>着</p>
+
+                        <p>起</p>
+
+                        <p>伏</p>
+
+                        <p>的</p>
+
+                        <p>山</p>
+
+                        <p>峦</p>
+
+                        <p>不</p>
+
+                        <p>断</p>
+
+                        <p>绵</p>
+
+                        <p>延。</p>
+
+                    </div>
+
+                </div>
+
+                <img id="eagle" class="eagle" src="./resource/img/second/eagle.png">
+
+                <div class="sence01">
+
+                    <img class="back2_1" src="./resource/img/second/back2_1.png">
+
+                    <div class="rabbit" id="rabbit"></div>
+
+                    <img class="tree01" src="./resource/img/second/tree01.png">
+
+                    <img class="river01" src="./resource/img/second/river01.png">
+
+                    <div class="font2">
+
+                        <div
+
+                                data-wow-duration="1.5s" data-wow-offset='50' class="font2_1 wow fadeInLeft">绿色长廊、葡萄园等休闲采摘景观
+
+                        </div>
+
+                        <div data-wow-duration="1.5s" data-wow-offset='100' class="font2_2 wow fadeInLeft">绿荫如盖、枝叶沙沙，站在观景台
+
+                        </div>
+
+                        <div data-wow-duration="1.5s" data-wow-offset='150' class="font2_3 wow fadeInLeft">俯瞰，深深浅浅的绿，勾勒着大青
+
+                        </div>
+
+                        <div data-wow-duration="1.5s" data-wow-offset='200' class="font2_4 wow fadeInLeft">山南坡最美的容颜。
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="sence02">
+
+                    <div class="tree02" id="tree02"></div>
+
+                    <img class="road01" src="./resource/img/second/road01.png">
+
+
+
+                    <div class="font3">
+
+                        <div data-wow-duration="2s" data-wow-offset='200' class="font1_1 ">66岁的李志强是一名老党员
+
+                        </div>
+
+                    </div>
+
+                    <img class="person1" src="./resource/img/second/person1.png">
+
+                    <img class="shadow01" src="./resource/img/second/shadow01.png">
+
+                    <div class="font4 wow bounceIn" data-wow-duration="2s" data-wow-offset='200'>
+
+                        2012年来到兴胜镇，为响应保护生态环境的号召，主动请缨，成为一名大青山南坡的护林员。
+
+                    </div>
+
+                    <div class="font5">
+
+                        <div data-wow-duration="2s" data-wow-offset='400' class="font2_1 wow fadeInRight">每天清晨6点，李志强就穿梭于连
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='400' class="font2_2 wow fadeInRight">绵起伏的山峦之间，查看树木植被
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='400' class="font2_3 wow fadeInRight">有没有被破坏、山林间有没有垃圾
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='400' class="font2_4 wow fadeInRight">有没有起火隐患，传统祭祀节日期
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='400' class="font2_4 wow fadeInRight">间更需要打起十二分精神。
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="sence03">
+
+                    <div class="videoback"></div>
+
+                    <img class="backperson" src="./resource/img/second/backperson.png">
+
+                    <div class="font6">
+
+                        <div data-wow-duration="1.5s" data-wow-offset='30' class="font2_1 wow bounceInLeft">
+
+                            李志强身体力行守护着大青山那抹珍贵的绿， 也见证了其从 “ 扬尘挥土 ” 到 “ 天然氧吧 ” 的蝶变。
+
+                        </div>
+
+                    </div>
+
+                    <div class="font7">
+
+                        <div data-wow-duration="2s" data-wow-offset='150' class="font2_1 wow fadeInUp">以往的大青山南坡，
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='150' class="font2_2 wow fadeInUp">满目疮痍，采石、采矿场开山挖矿，
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='150' class="font2_3 wow fadeInUp">车来车往，灰尘弥漫。
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="sence04">
+
+                    <div class="car01" id="car01"></div>
+
+                    <img class="stone01" src="./resource/img/second/stone01.png">
+
+                    <img class="stone02" src="resource/img/second/stone02.png">
+
+                    <img class="stone03" src="resource/img/second/stone03.png">
+
+                    <img class="stone04" src="./resource/img/second/stone04.png">
+
+                    <img class="stone05" src="./resource/img/second/stone05.png">
+
+                    <img class="stone06" src="./resource/img/second/stone06.png">
+
+                    <img class="stone07" src="./resource/img/second/stone07.png">
+
+                    <img class="road02" src="./resource/img/second/road02.png">
+
+                    <div class="car02" id="car02"></div>
+
+                </div>
+
+                <div class="sence05">
+
+                    <img class="mine" src="./resource/img/second/mine.png">
+
+                    <div class="font8">
+
+                        <div data-wow-duration="2s" data-wow-offset='400' class="font2_1 wow fadeInRight">开矿采石造成大面积的危岩体和矿坑，
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='400' class="font2_2 wow fadeInRight">部分山体被挖空，
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='400' class="font2_3 wow fadeInRight">水土流失严重。
+
+                        </div>
+
+                    </div>
+
+                    <img class="road03" src="./resource/img/second/road03.png">
+
+                    <div id="mine02" class="mine02"></div>
+
+                    <div class="font9">
+
+                        <div data-wow-duration="2s" data-wow-offset='300' class="font2_1 wow fadeIn"> 2012年，大青山南坡包头市青山段矿山环境治理和生态修复项目启动，拉开了我市大青山南坡生态治理的序幕。
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='300' data-wow-delay="0.3s" class="font2_2 wow fadeInRight">
+
+                            <img class="dot" src="./resource/img/second/dot.png">
+
+                            关停碎石场、沙场
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='300' data-wow-delay="0.6s" class="font2_3 wow fadeInRight">
+
+                            <img class="dot" src="./resource/img/second/dot.png">
+
+                            引进生态修复企业
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='300' data-wow-delay="0.9s" class="font2_3 wow fadeInRight">
+
+                            <img class="dot" src="./resource/img/second/dot.png">
+
+                            人工与自然相结合
+
+                        </div>
+
+                        <div data-wow-duration="2s" data-wow-offset='300' data-wow-delay="1.2s" class="font2_3 wow fadeInRight">
+
+                            <img class="dot" src="./resource/img/second/dot.png">
+
+                            治理修复生态环境
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="third">
+
+            <div class="content">
+
+                <div class="sence01">
+
+                    <div id="land01" class="land01"></div>
+
+                    <img class="road01" src="./resource/img/third/road01.png" alt="">
+
+                    <div data-wow-duration="1s" data-wow-offset='300' class="font1 wow lightSpeedIn">截至2017年，共清理取缔86家采石碎石企业及14家工业企业，大青山南坡包头市青山段的矿产企业实现了彻底清零。</div>
+
+                    <img class="station01" src="./resource/img/third/station01.png" alt="">
+
+                    <img class="tree01" src="./resource/img/third/tree01.png" alt="">
+
+                </div>
+
+                <div class="sence02">
+
+                    <div data-wow-duration="2s" data-wow-offset='350' class="font1 wow bounceInDown">如今，一个全新的、绿染的、入画的生态屏障正在不断筑牢。目之所及，绿色绵延，大青山的壮美画卷正在徐徐展开……</div>
+
+
+
+                    <div id="people" class="people"></div>
+
+                    <img class="filed01" src="./resource/img/third/filed01.png" alt="">
+
+                    <div data-wow-duration="2s" data-wow-offset='150' class="font2 wow fadeInUp">生态企业在施工过程中累计雇佣农民工40000余人次，雇用机械24000余台次</div>
+
+                    <div class="drill_wagon" id="drill_wagon"></div>
+
+                    <div data-wow-duration="2s" data-wow-offset='200' class="font3 wow bounceIn">大青山南坡蝶变，让村民的生活也有了巨大转变。沿山村民从“挖山人”转变成“护山人”，绿色富民产业让村民腰包也鼓了起来。</div>
+
+                </div>
+
+                <div class="sence03">
+
+                    <div class="person3_1" id="person3_1"></div>
+
+                    <img class="road3_1" src="./resource/img/third/road3_1.png" alt="">
+
+                    <div id="numb1" data-wow-duration="1s" data-wow-offset='300' class="font1 wow slideInLeft">帮助附近村民增收<p class="numb">3500</p>万元，个别村集体年增收<p class="numb">20</p>余万元，村民年人均增收超过<p class="numb">3000</p>元.</div>
+
+                    <img class="tree3_1" src="./resource/img/third/tree3_1.png" alt="">
+
+                    <div class="rabbit1" id="rabbit1"></div>
+
+                    <img class="tree3_2" src="./resource/img/third/tree3_2.png" alt="">
+
+                    <div  id="numb2" data-wow-duration="1s" data-wow-offset='150' class="font2 wow slideInRight">流转村民土地<p class="numb1">1000</p>亩，受益人口约<p class="numb1">6000</p>人。</div>
+
+                    <img class="tree3_3" src="./resource/img/third/tree3_3.png" alt="">
+
+                    <div class="grape" id="grape"></div>
+
+                    <img class="grass" src="./resource/img/third/grass.png" alt="">
+
+                    <div data-wow-duration="2s" data-wow-offset='150' class="font3 wow fadeInUp">以农家乐为代表的特色民宿和以农产品采摘为代表的休闲农业成为大青山南坡包头市青山段附近村民的“金山银山”，葡萄园、百草园、各种花园等林下经济遍布周边。</div>
+
+                    <img class="hill3_1" src="./resource/img/third/hill3_1.png" alt="">
+
+                </div>
+
+                <div class="sence04">
+
+                    <div class="font1" name="fontani3">
+
+                        <div>
+
+                            <img class="dot" src="./resource/img/second/dot.png">
+
+                            <div class="font1_1">环境保护擦亮大青山南坡生态底色</div>
+
+                        </div>
+
+                        <div>
+
+                            <img class="dot" src="./resource/img/second/dot.png">
+
+                            <div class="font1_1">特色产业赋能拓宽农牧民增收渠道</div>
+
+                        </div>
+
+                        <div>
+
+                            <img class="dot" src="./resource/img/second/dot.png">
+
+                            <div class="font1_1">经济转型描绘出村民幸福小康生活</div>
+
+                        </div>
+
+                    </div>
+
+                    <img class="sculpture" src="./resource/img/third/sculpture.png" alt="">
+
+                    <img class="land4_1" src="./resource/img/third/land4_1.png" alt="">
+
+                    <div id="font4_1" data-wow-duration="2s" data-wow-offset='150' class="font2 wow pulse">一路前行，干净整洁的柏油路两边，绘画风格各异的墙体仿佛定格了一幅幅流动的风景，让墙面变得生动、活泼起来；一组组逼真、形象的雕塑作品会瞬间冲击你的视觉，让你忍不住慢下脚步，细细欣赏。这里就是被市民称为包头798的东达沟村。
+
+                    </div>
+
+                </div>
+
+                <div class="sence05">
+
+                    <img class="house5_1" src="./resource/img/third/house5_1.png" alt="">
+
+                    <img class="tree5_1" src="./resource/img/third/tree5_1.png" alt="">
+
+                    <img class="road5_1" src="./resource/img/third/road5_1.png" alt="">
+
+                    <img class="tree5_2" src="./resource/img/third/tree5_2.png" alt="">
+
+                    <img class="eagle5_2" src="./resource/img/second/eagle.png" alt="">
+
+                    <img class="tree5_3" src="./resource/img/third/tree5_3.png" alt="">
+
+                    <img id="tree5_4" class="tree5_4" src="./resource/img/third/tree5_4.png" alt="">
+
+                    <div class="rabbit2" id="rabbit2"></div>
+
+                    <div data-wow-duration="1.5s" data-wow-delay='150' class="font1 wow fadeIn">过去以采石、采沙、运输</div>
+
+                    <div data-wow-duration="1.5s" data-wow-delay='1s' class="font2 wow fadeIn">为村民主要经济收入的东达沟村，</div>
+
+                    <div data-wow-duration="1.5s" data-wow-delay="1.5s" class="font3 wow fadeIn">通过荒山改造、绿化植树，走上了农业生态发展之路，如今，艺术家纷纷来到乡村，通过创设艺术区带动乡村经济发展。“这里的人文环境不会嘈杂，没有过多商业化干扰。</div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="fourth">
+
+            <div class="sence01">
+
+                <img class="mountain" src="./resource/img/fourth/mountain.png">
+
+            </div>
+
+        </div>
+
+        <div class="finalview">
+
+            <div class="share">
+
+                <img class="shareicon" src="./resource/img/shareicon.png">
+
+                <div class="sharefont">分享到您的朋友圈</div>
+
+            </div>
+
+            <img id="finalimg" class="final" src="./resource/img/final.png"/>
+
+        </div>
+
+
+
+<!--        <div class="safebottom"></div>-->
+
+    </body>
+
+</html>
+
+
+
+<script type="text/javascript">
+
+    // var vConsole = new VConsole();
+
+    new WOW().init();
+
+
+
+
+
+    // 加载完成为元素添加动画类
+
+    //每个字向左滚动出现动画
+
+    let font1 = document.getElementsByClassName('second')[0].children[0].children[0].children;
+
+    let offsetwow = 50;
+
+    for (let item of font1) {
+
+        for (let i in item.children) {
+
+            if (i < item.children.length) {
+
+                item.children[i].classList.add('wow', 'roll720InRight');
+
+                item.children[i].setAttribute('data-wow-duration', '1s');
+
+                item.children[i].setAttribute('data-wow-offset', offsetwow);
+
+                item.children[i].setAttribute('data-wow-delay', i * 0.1 + 's');
+
+            }
+
+        }
+
+        offsetwow += 100;
+
+    }
+
+    let fontani3 = document.getElementsByName('fontani3')[0].children;
+
+    let i = 0;
+
+    for(let item of fontani3){
+
+        //小圆点的动画
+
+        let dot = item.getElementsByClassName('dot')[0];
+
+        dot.classList.add('wow','bounceIn');
+
+        dot.setAttribute('data-wow-duration', '3s');
+
+        dot.setAttribute('data-wow-offset', '180');
+
+        dot.setAttribute('data-wow-delay', i * 0.3 + 's');
+
+        //字的动画
+
+        let font = item.children[1];
+
+        font.classList.add('wow','fadeInRight');
+
+        font.setAttribute('data-wow-duration', '1.2s');
+
+        font.setAttribute('data-wow-offset', '200');
+
+        font.setAttribute('data-wow-iteration', '1');
+
+        font.setAttribute('data-wow-delay', i* 0.3 + 's');
+
+        i++;
+
+    }
+
+
+
+    //bodymovinJS
+
+    var mine01 = lottie.loadAnimation({
+
+        container: document.getElementById('mine02'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: false,
+
+        path: './resource/json/mine02.json' // the path to the animation json
+
+    });
+
+    var land01 = lottie.loadAnimation({
+
+        container: document.getElementById('land01'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: false,
+
+        path: './resource/json/land01.json' // the path to the animation json
+
+    });
+
+    var people = lottie.loadAnimation({
+
+        container: document.getElementById('people'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: false,
+
+        path: './resource/json/people.json' // the path to the animation json
+
+    });
+
+    var grape = lottie.loadAnimation({
+
+        container: document.getElementById('grape'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: false,
+
+        path: './resource/json/grape.json' // the path to the animation json
+
+    });
+
+    var person3_1 = lottie.loadAnimation({
+
+        container: document.getElementById('person3_1'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: false,
+
+        path: './resource/json/person3_1.json' // the path to the animation json
+
+    });
+
+    var car01 = lottie.loadAnimation({
+
+        container: document.getElementById('car01'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: false,
+
+        path: './resource/json/car01.json' // the path to the animation json
+
+    });
+
+    var car02 = lottie.loadAnimation({
+
+        container: document.getElementById('car02'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: false,
+
+        path: './resource/json/car02.json' // the path to the animation json
+
+    });
+
+    car02.playSegments([0,80],false);
+
+    var tree02 = lottie.loadAnimation({
+
+        container: document.getElementById('tree02'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: false,
+
+        autoplay: false,
+
+        path: './resource/json/tree02.json' // the path to the animation json
+
+    });
+
+    var drill_wagon = lottie.loadAnimation({
+
+        container: document.getElementById('drill_wagon'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: false,
+
+        autoplay: false,
+
+        path: './resource/json/drill_wagon.json' // the path to the animation json
+
+    });
+
+    var rabbitbm = lottie.loadAnimation({
+
+        container: document.getElementById('rabbit'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: true,
+
+        path: './resource/json/rabbit.json' // the path to the animation json
+
+    });
+
+    var rabbit1bm = lottie.loadAnimation({
+
+        container: document.getElementById('rabbit1'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: true,
+
+        path: './resource/json/rabbit.json' // the path to the animation json
+
+    });
+
+    var rabbit2bm = lottie.loadAnimation({
+
+        container: document.getElementById('rabbit2'), // the dom element that will contain the animation
+
+        renderer: 'svg',
+
+        loop: true,
+
+        autoplay: true,
+
+        path: './resource/json/rabbit.json' // the path to the animation json
+
+    });
+
+
+
+
+
+
+
+
+
+    //TWEENMAXJS
+
+    var screenHeight = window.screen.availHeight;
+
+    let stone01y = document.getElementsByClassName('stone01')[0].offsetTop - document.getElementById('car01').offsetTop - document.getElementsByClassName('stone01')[0].clientHeight;
+
+    let stone01fy = document.getElementsByClassName('road02')[0].offsetTop - document.getElementsByClassName('stone01')[0].offsetTop
+
+    let stone02y = document.getElementsByClassName('stone02')[0].offsetTop - document.getElementById('car01').offsetTop - document.getElementsByClassName('stone02')[0].clientHeight;
+
+    let stone02fy = document.getElementsByClassName('road02')[0].offsetTop - document.getElementsByClassName('stone02')[0].offsetTop
+
+    let stone03y = document.getElementsByClassName('stone03')[0].offsetTop - document.getElementById('car01').offsetTop - document.getElementsByClassName('stone03')[0].clientHeight;
+
+    let stone03fy = document.getElementsByClassName('road02')[0].offsetTop - document.getElementsByClassName('stone03')[0].offsetTop
+
+    let stone04y = document.getElementsByClassName('stone04')[0].offsetTop - document.getElementById('car01').offsetTop - document.getElementsByClassName('stone04')[0].clientHeight;
+
+    let stone04fy = document.getElementsByClassName('road02')[0].offsetTop - document.getElementsByClassName('stone04')[0].offsetTop
+
+    let stone05y = document.getElementsByClassName('stone05')[0].offsetTop - document.getElementById('car01').offsetTop - document.getElementsByClassName('stone05')[0].clientHeight;
+
+    let stone05fy = document.getElementsByClassName('road02')[0].offsetTop - document.getElementsByClassName('stone05')[0].offsetTop
+
+    let stone06y = document.getElementsByClassName('stone06')[0].offsetTop - document.getElementById('car01').offsetTop - document.getElementsByClassName('stone06')[0].clientHeight;
+
+    let stone06fy = document.getElementsByClassName('road02')[0].offsetTop - document.getElementsByClassName('stone06')[0].offsetTop
+
+    let stone07y = document.getElementsByClassName('stone07')[0].offsetTop - document.getElementById('car01').offsetTop - document.getElementsByClassName('stone07')[0].clientHeight;
+
+    let stone07fy = document.getElementsByClassName('road02')[0].offsetTop - document.getElementsByClassName('stone07')[0].offsetTop
+
+
+
+    var tleagle = new TimelineMax({paused: true})
+
+    var tleaglefly1 = new TimelineMax({paused: true});
+
+    tleaglefly1.to('.eagle', 1, {bezier: {type: "soft", values: [{x: '-50vw', y: '100vw'}, {x: '30vw', y: '150vw'}]}, ease: Power1.easeInOut});
+
+    var tleaglerot1 = new TimelineMax({paused: true});
+
+    tleaglerot1.to('.eagle', 1, {rotation: -45});
+
+    var tleaglefly2 = new TimelineMax({paused: true});
+
+    tleaglefly2.to('.eagle', 1, {bezier: {type: "soft", values: [{x: "80vw", y: "200vw"}, {x: '20vw', y: '320vw'}]}, ease: Sine.easeInOut});
+
+    var tleaglerot2 = new TimelineMax({paused: true});
+
+    tleaglerot2.to('.eagle', 1, {rotation: -5});
+
+    var tleagledisappear = new TimelineMax({paused: true})
+
+    tleagledisappear.to('.eagle', 1, {x: 0, y: '400vw', scale: 3, rotation: -35}).to('.eagle', 2, {opacity: 0}, "-=1")
+
+    var tlStoneFall = new TimelineMax({paused: true})
+
+    tlStoneFall.fromTo('.stone01', 7, {y: -stone01y - 10}, {y: stone01fy + 45})
+
+        .fromTo('.stone02', 5, {y: -stone02y - 10}, {y: stone02fy + 55}, "-=6")
+
+        .fromTo('.stone03', 6, {y: -stone03y - 10}, {y: stone03fy + 50}, "-=6.5")
+
+        .fromTo('.stone04', 4, {y: -stone04y - 10}, {y: stone04fy + 60}, "-=5.5")
+
+        .fromTo('.stone05', 7, {y: -stone05y - 10}, {y: stone05fy + 65}, "-=6")
+
+        .fromTo('.stone06', 6, {y: -stone06y - 10}, {y: stone06fy + 55}, "-=6")
+
+        .fromTo('.stone07', 5, {y: -stone07y - 10}, {y: stone07fy + 75}, "-=5")
+
+    let car02move = new TimelineMax({paused: true});
+
+    car02move.to('.car02', 2, {x: '70vw', y: '40vw', ease: Sine.easeOut}).to('.car02', 2, {opacity: 0, ease: Power1.easeInOut}, '-=1')
+
+
+
+    var tleaglefly5_2 = new TimelineMax({paused: true});
+
+    tleaglefly5_2.to('.eagle5_2', 1, {bezier: {type: "soft", values: [{x: '-170vw', y: '40vw'},{x: '-50vw', y: '110vw'}]}, ease: Sine.easeIn});
+
+    var tleaglerot5_2 = new TimelineMax({paused: true});
+
+    tleaglerot5_2.to('.eagle5_2', 1, {rotation: -45});
+
+    var tleaglefly5_22 = new TimelineMax({paused: true});
+
+    tleaglefly5_22.to('.eagle5_2', 1, {bezier: {type: "soft", values: [{x: '-10vw', y: '150vw'},{x: "-40vw", y: "190vw"}, {x: '-90vw', y: '220vw'}]}, ease: Sine.easeInOut});
+
+    var tleaglerot5_22 = new TimelineMax({paused: true});
+
+    tleaglerot5_22.to('.eagle5_2', 1, {rotation: -5});
+
+    // var font4_1TM = new TimelineMax({paused: true,repeat: -1});
+
+    // font4_1TM.to("#font4_1", 2, {text:{value:"一路前行，干净整洁的柏油路两边，绘画风格各异的墙体仿佛定格了一幅幅流动的风景，让墙面变得生动、活泼起来；一组组逼真、形象的雕塑作品会瞬间冲击你的视觉，让你忍不住慢下脚步，细细欣赏。这里就是被市民称为包头798的东达沟村。",newClass:"font4_1new", oldClass:"font4_1old"}, ease:Linear.easeNone})
+
+    var numbpluse1 = new TimelineMax({paused:true});
+
+    numbpluse1.to('.numb',0.6,{scale: 1.8}).to('.numb',0.6,{scale: 1});
+
+    var numbpluse2 = new TimelineMax({paused:true});
+
+    numbpluse2.to('.numb1',0.6,{scale: 1.8}).to('.numb1',0.6,{scale: 1});
+
+
+
+    window.onscroll = function () {
+
+        //页面元素距离浏览器工作区顶端的距离 =  元素距离文档顶端偏移值 - 网页被卷起来的高度
+
+        // 判断动画进度的百分比根据参考元素距离屏幕顶端的距离
+
+        //鹰缩小旋转
+
+        //获取浏览器滚动条位置，兼容所有浏览器！
+
+        var screenScrollTop = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop;
+
+        let tree1 = document.getElementsByClassName('tree01')[0];
+
+        let tree1gst = tree1.offsetTop + tree1.offsetParent.offsetTop + tree1.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if (0 < (tree1gst / screenHeight) && (tree1gst / screenHeight) < 0.85) {
+
+            tleaglefly1.progress(Math.abs(((tree1gst) / (screenHeight * 0.85) - 1)));
+
+            tleaglerot1.progress(Math.abs(((tree1gst) / (screenHeight * 0.85) - 1)));
+
+        }
+
+        //鹰移动2
+
+        let road1 = document.getElementsByClassName('road01')[0];
+
+        let road1gst = road1.offsetTop + road1.offsetParent.offsetTop + road1.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if (0 < (road1gst / screenHeight) && (road1gst / screenHeight) < 0.85) {
+
+            tleaglefly2.progress(Math.abs(((road1gst / (screenHeight * 0.85)) - 1)));
+
+            tleaglerot2.progress(Math.abs(((road1gst / (screenHeight * 0.85)) - 1)));
+
+        }
+
+        //鹰消失
+
+        let person1 = document.getElementsByClassName('person1')[0];
+
+        let person1gst = person1.offsetTop + person1.offsetParent.offsetTop + person1.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+
+
+        if (0 < (person1gst / screenHeight) && (person1gst / screenHeight) < 0.45) {
+
+            tleagledisappear.progress(Math.abs(((person1gst / (screenHeight * 0.45)) - 1)))
+
+        }
+
+
+
+        //石头坠落
+
+        let road02 = document.getElementsByClassName('road02')[0];
+
+        let road02gst = road02.offsetTop + road02.offsetParent.offsetTop + road02.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if (0 < (road02gst / screenHeight) && (road02gst / screenHeight) < 1) {
+
+            tlStoneFall.progress(Math.abs(((road02gst / screenHeight) - 1)))
+
+        }
+
+
+
+        //    车移动
+
+        let mine = document.getElementsByClassName('mine')[0];
+
+        let minegst = mine.offsetTop + mine.offsetParent.offsetTop + mine.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if (0 < (minegst / screenHeight) && (minegst / screenHeight) < 0.9) {
+
+            car02move.progress(Math.abs(((minegst / (screenHeight * 0.9)) - 1)))
+
+        }
+
+        //    逐字显示
+
+        // let font4_1 = document.getElementById('font4_1');
+
+        // let font4_1gst = font4_1.offsetTop + font4_1.offsetParent.offsetTop + font4_1.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        // if((font4_1gst / screenHeight)<=0.55){
+
+        //     font4_1TM.play();
+
+        // }
+
+
+
+    //    bodymovin的触发动画
+
+        let mine2_5 = document.getElementById('mine02');
+
+        let mine2_5gst = mine2_5.offsetTop + mine2_5.offsetParent.offsetTop + mine2_5.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if((mine2_5gst / screenHeight)<0.55){
+
+            mine01.playSegments([101,200], false);
+
+        }
+
+        let land01bm = document.getElementById('land01');
+
+        let land01bmgst = land01bm.offsetTop + land01bm.offsetParent.offsetTop + land01bm.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if((land01bmgst / screenHeight)<0.55){
+
+            land01.playSegments([148,230], false);
+
+        }
+
+        let peoplebm = document.getElementById('people');
+
+        let peoplebmgst = peoplebm.offsetTop + peoplebm.offsetParent.offsetTop + peoplebm.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if((peoplebmgst / screenHeight)<0.55){
+
+            people.playSegments([128,200], false);
+
+        }
+
+        let grapebm = document.getElementById('grape');
+
+        let grapebmgst = grapebm.offsetTop + grapebm.offsetParent.offsetTop + grapebm.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if((grapebmgst / screenHeight)<0.55){
+
+            grape.playSegments([175,260], false);
+
+        }
+
+        let person3_1bm = document.getElementById('person3_1');
+
+        let person3_1bmgst = person3_1bm.offsetTop + person3_1bm.offsetParent.offsetTop + person3_1bm.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if((person3_1bmgst / screenHeight)<0.55){
+
+            person3_1.playSegments([120,380], false);
+
+        }
+
+        let car01bm = document.getElementById('car01');
+
+        let car01bmgst = car01bm.offsetTop + car01bm.offsetParent.offsetTop + car01bm.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if((car01bmgst / screenHeight)<0.55){
+
+            car01.playSegments([75,250], false);
+
+        }
+
+        let tree02bm = document.getElementById('tree02');
+
+        let tree02bmgst = tree02bm.offsetTop + tree02bm.offsetParent.offsetTop + tree02bm.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if((tree02bmgst / screenHeight)<0.55){
+
+            tree02.play();
+
+        }
+
+        let drill_wagonbm = document.getElementById('drill_wagon');
+
+        let drill_wagonbmgst = drill_wagonbm.offsetTop + drill_wagonbm.offsetParent.offsetTop + drill_wagonbm.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if((drill_wagonbmgst / screenHeight)<0.55){
+
+            drill_wagon.playSegments([100,190], false);
+
+        }
+
+        //鹰
+
+        let tree5_4 = document.getElementById('tree5_4');
+
+        let tree5_4gst = tree5_4.offsetTop + tree5_4.offsetParent.offsetTop + tree5_4.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if (0.5 < (tree5_4gst / screenHeight) && (tree5_4gst / screenHeight) < 1) {
+
+            tleaglefly5_2.progress(Math.abs(((tree5_4gst-screenHeight * 0.5) / (screenHeight * 0.5) - 1)));
+
+            tleaglerot5_2.progress(Math.abs(((tree5_4gst-screenHeight * 0.5) / (screenHeight * 0.5) - 1)));
+
+        }
+
+        //鹰2
+
+        if (0 < (tree5_4gst / screenHeight) && (tree5_4gst / screenHeight) < 0.5) {
+
+            tleaglefly5_22.progress(Math.abs(((tree5_4gst / (screenHeight * 0.5)) - 1)));
+
+            tleaglerot5_22.progress(Math.abs(((tree5_4gst / (screenHeight * 0.5)) - 1)));
+
+        }
+
+        //数字缩放
+
+        let numb1 = document.getElementById('numb1');
+
+        let numb1gst = numb1.offsetTop + numb1.offsetParent.offsetTop + numb1.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if ( (numb1gst / screenHeight) < 0.4) {
+
+            numbpluse1.play();
+
+        }
+
+        let numb2 = document.getElementById('numb2');
+
+        let numb2gst = numb2.offsetTop + numb2.offsetParent.offsetTop + numb2.offsetParent.offsetParent.offsetTop - screenScrollTop;
+
+        if ( (numb2gst / screenHeight) < 0.6) {
+
+            numbpluse2.play();
+
+        }
+
+
+
+        let share1 = document.getElementById('finalimg');
+
+        let share1gst = share1.offsetTop + share1.offsetParent.offsetTop - screenScrollTop;
+
+        if ( (share1gst / screenHeight) == 0) {
+
+            setTimeout(()=>{
+
+                $('.share').css('display','block');
+
+                $('.share').addClass('animated bounceIn');
+
+            },3000);
+
+        }
+
+        if ( (share1gst / screenHeight) > 0.3) {
+
+            $('.share').css('display','none');
+
+            $('.share').removeClass('animated bounceIn');
+
+        }
+
+    }
+
+
+
+//    处理音乐
+
+    var audio = document.getElementById('audio');
+
+    if (sessionStorage.bgmusic == 'pause') {
+
+        playBgMusic(false);
+
+    } else {
+
+        playBgMusic(true);
+
+        //----------处理自动播放------------
+
+        //--创建页面监听，等待微信端页面加载完毕 触发音频播放
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            function audioAutoPlay() {
+
+                playBgMusic(true);
+
+                document.addEventListener("WeixinJSBridgeReady", function() {
+
+                    playBgMusic(true);
+
+                }, false);
+
+            }
+
+
+
+            audioAutoPlay();
+
+        });
+
+
+
+        //--创建触摸监听，当浏览器打开页面时，触摸屏幕触发事件，进行音频播放
+
+        function audioAutoPlay() {
+
+            playBgMusic(true);
+
+            document.removeEventListener('touchstart', audioAutoPlay);
+
+        }
+
+
+
+        document.addEventListener('touchstart', audioAutoPlay);
+
+    }
+
+    //----------处理页面激活------------
+
+    var hiddenProperty = 'hidden' in document ? 'hidden' :
+
+        'webkitHidden' in document ? 'webkitHidden' :
+
+            'mozHidden' in document ? 'mozHidden' :
+
+                null;
+
+    var visibilityChangeEvent = hiddenProperty.replace(/hidden/i, 'visibilitychange');
+
+    var onVisibilityChange = function() {
+
+        if (!document[hiddenProperty]) {
+
+            if (!sessionStorage.bgmusic || sessionStorage.bgmusic == 'play') {
+
+                audio.play();
+
+            }
+
+        } else {
+
+            audio.pause();
+
+        }
+
+    }
+
+    document.addEventListener(visibilityChangeEvent, onVisibilityChange);
+
+
+
+    //---------背景音乐开关----------
+
+    function triggerBgMusic() {
+
+        if (!sessionStorage.bgmusic || sessionStorage.bgmusic == 'play') {
+
+            playBgMusic(false);
+
+        } else {
+
+            playBgMusic(true);
+
+        }
+
+    }
+
+
+
+    //---------音乐播放和暂停----------
+
+    function playBgMusic(val) {
+
+        if (val) {
+
+            audio.play();
+
+            sessionStorage.bgmusic = 'play';
+
+            document.querySelector(".control").style.backgroundPosition = "left center";
+
+        } else {
+
+            audio.pause();
+
+            sessionStorage.bgmusic = 'pause';
+
+            document.querySelector(".control").style.backgroundPosition = "right center";
+
+        }
+
+    }
+
+
+
+    $.get("http://customupload.baotounews.com/h5/statistics/tj.php?name=daqingshan",
+
+        function(res) {
+
+            if (res.status)
+
+                console.log(res.num)
+
+            $('#readnum').text('阅读量：'+res.num);
+
+        }
+
+    );
+
+    $(function () {
+
+        //分享链接图片、标题、摘要
+
+        // api 申请
+
+        var _apis = 'updateAppMessageShareData,updateTimelineShareData'
+
+        $.get('http://customupload.baotounews.com/h5/era/home/jssdk', { url: location.href, apis: _apis }, function (config) {
+
+            var script = document.createElement('script');
+
+            script.onload = function () {
+
+                wx.config(JSON.parse(config));
+
+                wx.ready(function () {
+
+                    // 设置微信分享
+
+                    var share = {
+
+                        title: '绿色生态打底 看大青山南坡华丽蝶变',
+
+                        desc: '壮丽七十年 奋斗新时代',
+
+                        link: 'http://customupload.baotounews.com/h5/daqingshan/index.html',
+
+                        imgUrl: 'http://customupload.baotounews.com/h5/daqingshan/resource/img/share.png',
+
+                    };
+
+                    wx.updateAppMessageShareData(share);
+
+                    wx.updateTimelineShareData(share);
+
+                });
+
+            };
+
+            script.src = 'http://res.wx.qq.com/open/js/jweixin-1.6.0.js';
+
+            document.head.appendChild(script);
+
+        }, 'json');
+
+    })
+
+</script>
+
+
+
+
+

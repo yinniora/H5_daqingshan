@@ -1,0 +1,932 @@
+html {
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #525151;
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    /*引言*/
+}
+
+@font-face {
+    font-family: special;
+    src: url('../resource/fonts/zhanku.otf');
+}
+
+@keyframes rotate {
+    0% {
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    25% {
+        -moz-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    50% {
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    75% {
+        -moz-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    25% {
+        -webkit-transform: rotate(90deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    75% {
+        -webkit-transform: rotate(270deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+/*music*/
+.music {
+    position: fixed;
+    top: 3vh;
+    right: 5vw;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+}
+
+.control {
+    width: 40px;
+    height: 40px;
+    z-index: 1000;
+    background: url(../resource/img/bgmusic_play.png) transparent no-repeat left center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    -webkit-background-size: 200% 100%;
+    background-size: 200% 100%;
+    -webkit-animation: rotate2d 2s linear infinite;
+    -o-animation: rotate2d 3s linear infinite;
+    animation: rotate2d 3s linear infinite;
+    text-align: center;
+}
+
+@keyframes rotate2d {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -ms-transform-origin: center; /* IE 9 */
+        -webkit-transform-origin: center; /* Safari 和 Chrome */
+        -moz-transform-origin: center; /* Firefox */
+        -o-transform-origin: center;
+        transform-origin: center;
+
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -ms-transform-origin: center; /* IE 9 */
+        -webkit-transform-origin: center; /* Safari 和 Chrome */
+        -moz-transform-origin: center; /* Firefox */
+        -o-transform-origin: center;
+        transform-origin: center;
+    }
+}
+
+
+html body .first .content {
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+    position: relative;
+}
+
+html body .first .content img {
+    display: block;
+}
+
+html body .first .content .background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: 130;
+}
+
+html body .first .content .kan {
+    position: relative;
+    width: 29vw;
+    float: left;
+    margin-top: -150vw;
+    margin-left: 25vw;
+    z-index: 140;
+    animation-duration: 2s;
+}
+
+html body .first .content .circle01 {
+    position: relative;
+    width: 49vw;
+    margin-top: -160vw;
+    margin-left: 15vw;
+    z-index: 140;
+}
+
+html body .first .content .fontHualidiebian {
+    position: relative;
+    width: 26vw;
+    margin-top: -30vw;
+    margin-left: 56vw;
+    z-index: 145;
+}
+
+html body .first .content .fontDaqingshannanpo {
+    position: relative;
+    width: 16vw;
+    margin-left: 55vw;
+    margin-top: 5vw;
+    z-index: 145;
+}
+
+html body .first .content .fontLvse {
+    position: relative;
+    width: 9vw;
+    margin-top: -63vw;
+    margin-left: 40vw;
+    z-index: 145;
+}
+
+html body .first .content .line01 {
+    position: relative;
+    width: 4vw;
+    margin-left: 43vw;
+    z-index: 145;
+}
+
+html body .first .content .cloud1 {
+    position: absolute;
+    width: 44vw;
+    top: 5vh;
+    left: 0vw;
+    z-index: 135;
+    animation-duration: 25s;
+    animation-timing-function: ease-in-out;
+}
+
+html body .first .content .cloud2 {
+    position: absolute;
+    width: 55vw;
+    top: 10vh;
+    left: 45vw;
+    z-index: 135;
+    animation-duration: 20s;
+    animation-timing-function: ease-in-out;
+}
+
+/*第二部分*/
+html body .second .content {
+    width: 100vw;
+    position: relative;
+    background: white;
+    margin-top: 20vh;
+}
+
+html body .second .content .font1 {
+    overflow-x: hidden;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 3vh;
+    float: right;
+    margin-right: 5vw;
+}
+html body .second .content .font1 p{
+    display: inline-block;
+}
+
+html body .second .content .eagle {
+    position: relative;
+    width: 140px;
+    margin-top: 10vh;
+    margin-left: 21vw;
+    z-index: 15;
+}
+
+html body .second .content .sence01 {
+    width: 100vw;
+    position: relative;
+}
+
+html body .second .content .sence01 .back2_1 {
+    width: 100vw;
+    margin-top: 3vh;
+}
+
+html body .second .content .sence01 .rabbit {
+    position: relative;
+    width: 30vw;
+    float: left;
+    margin-top: -28vh;
+    margin-left: 31vw;
+    z-index: 14;
+}
+.rabbit1 {
+    position: relative;
+    width: 30vw;
+    margin-top: 40vw;
+    margin-left: 22vw;
+    z-index: 14;
+}
+.rabbit2 {
+    position: relative;
+    width: 30vw;
+    bottom: 45vw;
+    left: 20vw;
+    z-index: 14;
+}
+
+html body .second .content .sence01 .tree01 {
+    position: relative;
+    width: 195px;
+    margin-top: -6vh;
+    z-index: 1;
+}
+
+html body .second .content .sence01 .river01 {
+    width: 100vw;
+    margin-top: -13vh;
+}
+
+html body .second .content .sence01 .font2 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -13vh;
+    margin-left: 5vw;
+}
+
+html body .second .content .sence02 {
+    width: 100vw;
+    position: relative;
+}
+html body .second .content .sence02 .tree02 {
+    position: relative;
+    width: 100vw;
+    transform: rotateY(180deg);
+    margin-top: -11vh;
+    z-index: 15;
+}
+
+html body .second .content .sence02 .road01 {
+    width: 100vw;
+    left: 0;
+    margin-top: -88vw;
+    position: absolute;
+    z-index: 1;
+}
+
+html body .second .content .font3 {
+    overflow-x: hidden;
+    font-size: 15px;
+    font-weight: 300;
+    width: 130px;
+    float: right;
+    margin-right: 5vw;
+    margin-top: -9vw;
+}
+
+html body .second .content .person1 {
+    width: 93vw;
+    position: relative;
+    margin-top: -10vh;
+    z-index: 5;
+}
+
+html body .second .content .shadow01 {
+    width: 15vw;
+    margin-top: -66vw;
+}
+
+html body .second .content .font4 {
+    width: 30vw;
+    font-size: 4vw;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    float: right;
+    margin-right: 16vw;
+    margin-top: -67vw;
+    z-index: 5;
+}
+
+html body .second .content .font5 {
+    overflow-x: hidden;
+    font-size: 4.5vw;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    margin-top: 12vh;
+    margin-left: 2vw;
+    z-index: 5;
+}
+
+html body .second .content .sence03 {
+    width: 100vw;
+    position: relative;
+}
+html body .second .content .sence03 .videoback{
+    width: 100vw;
+    height: 90vw;
+    position: relative;
+    background-color: #b19d7a;
+    margin-top: 65vw;
+    z-index: 1;
+}
+html body .second .content .sence03 .backperson {
+    width: 100vw;
+    position: relative;
+    margin-top: -70vh;
+    z-index: 5;
+}
+
+html body .second .content .sence03 .font6 {
+    font-size: 4vw;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    margin-top: -117vw;
+    margin-left: 3vw;
+    z-index: 5;
+}
+
+html body .second .content .sence03 .font7 {
+    font-size: 4.2vw;
+    font-weight: 300;
+    position: relative;
+    margin-top: 40vh;
+    margin-left: 8vw;
+    z-index: 5;
+}
+
+html body .second .content .sence04 {
+    width: 100vw;
+    position: relative;
+}
+html body .second .content .sence04 .sandhill {
+    width: 100vw;
+}
+
+html body .second .content .sence04 .car01 {
+    width: 100vw;
+    position: relative;
+    margin-top: -25vh;
+    margin-bottom: -42vw;
+    z-index: 5;
+}
+
+/*html body .second .content .sence04 .rock01 {*/
+/*    width: 65vw;*/
+/*    position: relative;*/
+/*    margin-top: -15vh;*/
+/*    z-index: 10;*/
+/*}*/
+
+html body .second .content .sence04 .stone01 {
+    width: 60px;
+    float: left;
+    margin-left: 15vh;
+    position: relative;
+    z-index: 15;
+}
+
+html body .second .content .sence04 .stone02 {
+    width: 20px;
+    float: left;
+    margin-left: -20vw;
+    margin-top: 10vw;
+    position: relative;
+    z-index: 15;
+}
+
+html body .second .content .sence04 .stone03 {
+    width: 25px;
+    float: left;
+    margin-top: 25vw;
+    position: relative;
+    z-index: 15;
+}
+
+html body .second .content .sence04 .stone04 {
+    width: 60px;
+    float: left;
+    margin-top: 45vw;
+    margin-left: -15vw;
+    position: relative;
+    z-index: 15;
+}
+
+html body .second .content .sence04 .stone05 {
+    width: 25px;
+    float: left;
+    margin-top: 70vw;
+    margin-left: -27vw;
+    position: relative;
+    z-index: 15;
+}
+
+html body .second .content .sence04 .stone06 {
+    width: 30px;
+    float: left;
+    margin-top: 120vw;
+    margin-left: 5vw;
+    position: relative;
+    z-index: 15;
+}
+
+html body .second .content .sence04 .stone07 {
+    width: 25px;
+    float: left;
+    margin-top: 90vw;
+    margin-left: -28vw;
+    position: relative;
+    z-index: 15;
+}
+
+html body .second .content .sence04 .road02 {
+    width: 100vw;
+    float: left;
+    margin-top: -5vh;
+    top: 3930px;
+}
+
+html body .second .content .sence04 .car02 {
+    position: absolute;
+    top: 231vw;
+    left: -9vw;
+    transform: rotateY(180deg);
+    width: 90vw;
+    float: left;
+    z-index: 5;
+}
+
+html body .second .content .sence05 {
+    width: 100vw;
+    position: relative;
+}
+
+html body .second .content .sence05 .mine {
+    width: 100vw;
+    margin-top: -2vh;
+}
+html body .second .content .sence05 .font8 {
+    overflow-x: hidden;
+    font-size: 4.5vw;
+    font-weight: 300;
+    float: right;
+    margin-right: 7vw;
+}
+html body .second .content .sence05 .road03 {
+    width: 100vw;
+    margin-top: -15vh;
+}
+
+html body .second .content .sence05 .mine02 {
+    width: 100vw;
+    float: left;
+    margin-top: -83vw;
+    z-index: 5;
+
+}
+html body .second .content .sence05 .font9 {
+    font-size: 4.5vw;
+    overflow-x: hidden;
+    font-weight: 300;
+    width: 85vw;
+    margin-top: 36vw;
+    margin-left: 9vw;
+    z-index: 50;
+    position: absolute;
+}
+
+html body .second .content .sence05 .font9 .font2_1{
+    text-indent: 2em;
+}
+html body .second .content .sence05 .font9 .font2_2{
+    margin-top: 10px;
+}
+html body .second .content .sence05 .font9 .dot{
+    width: 7px;
+}
+
+/*第三部分*/
+html body .third .content {
+    width: 100vw;
+    position: relative;
+    margin-top: 20vw;
+    background: white;
+}
+html body .third .content .sence01 {
+    width: 100vw;
+    position: relative;
+}
+html body .third .content .sence01 .land01{
+    position: absolute;
+    width: 100vw;
+    top: -10vw;
+    z-index: 15;
+}
+html body .third .content .sence01 .road01{
+    position: relative;
+    width: 100vw;
+    margin-top: 20vw;
+    z-index: 10;
+}
+html body .third .content .sence01 .font1{
+    overflow-x: hidden;
+    position: relative;
+    width: 61vw;
+    font-size: 4.5vw;
+    margin-left: 6vw;
+    margin-top: -130vw;
+    z-index: 11;
+}
+html body .third .content .sence01 .station01{
+    position: relative;
+    width: 94vw;
+    margin-top: 8vw;
+    z-index: 10;
+}
+html body .third .content .sence01 .tree01{
+    position: relative;
+    width: 20vw;
+    margin-top: -68vw;
+    margin-left: 81vw;
+    z-index: 11;
+}
+
+html body .third .content .sence02 {
+    width: 100vw;
+    position: relative;
+}
+html body .third .content .sence02 .font1{
+    position: relative;
+    width: 58vw;
+    font-size: 4.5vw;
+    margin-left: 34vw;
+    margin-top: 30vw;
+    z-index: 11;
+}
+html body .third .content .sence02 .people{
+    position: relative;
+    width: 100vw;
+    margin-top: -30vw;
+    z-index: 11;
+}
+/*html body .third .content .sence02 .person01{*/
+/*    position: relative;*/
+/*    width: 19vw;*/
+/*    margin-left: 6vw;*/
+/*    z-index: 11;*/
+/*}*/
+/*html body .third .content .sence02 .person02{*/
+/*    position: relative;*/
+/*    width: 19vw;*/
+/*    margin-left: 1vw;*/
+/*    z-index: 11;*/
+/*}*/
+/*html body .third .content .sence02 .person03{*/
+/*    position: relative;*/
+/*    width: 25vw;*/
+/*    margin-left: 2vw;*/
+/*    z-index: 11;*/
+/*}*/
+/*html body .third .content .sence02 .person04{*/
+/*    position: relative;*/
+/*    width: 24vw;*/
+/*    margin-left: -1vw;*/
+/*    z-index: 11;*/
+/*}*/
+/*html body .third .content .sence02 .soil01{*/
+/*    position: relative;*/
+/*    width: 80vw;*/
+/*    margin-left: 3vw;*/
+/*    margin-top: -15vw;*/
+/*    z-index: 5;*/
+/*}*/
+html body .third .content .sence02 .filed01{
+    position: relative;
+    width: 100vw;
+    margin-top: -108vw;
+    z-index: 4;
+}
+html body .third .content .sence02 .font2{
+    position: relative;
+    color: white;
+    width: 90vw;
+    font-size: 4.5vw;
+    margin-left: 6vw;
+    margin-top: -224vw;
+    z-index: 11;
+}
+html body .third .content .sence02 .drill_wagon{
+    position: relative;
+    width: 100vw;
+    margin-top: -25vw;
+    z-index: 10;
+}
+html body .third .content .sence02 .font3{
+    position: relative;
+    width: 54vw;
+    font-size: 4.4vw;
+    margin-left: 40vw;
+    margin-top: -28vw;
+    z-index: 11;
+}
+html body .third .content .sence03 {
+    width: 100vw;
+    position: relative;
+}
+html body .third .content .sence03 .person3_1{
+    width: 100vw;
+    margin-top: -34vw;
+    position: relative;
+    z-index: 6;
+}
+html body .third .content .sence03 .road3_1{
+    width: 100vw;
+    margin-top: -42vw;
+    position: relative;
+    z-index: 4;
+}
+html body .third .content .sence03 .font1{
+    position: relative;
+    width: 65vw;
+    font-size: 4.5vw;
+    margin-top: -295vw;
+    margin-left: 5vw;
+    z-index: 11;
+}
+html body .third .content .sence03 .font1 p{
+    display: inline-block;
+    font-size: 5vw;
+    color: #e83f3f;
+    z-index: 11;
+}
+html body .third .content .sence03 .tree3_1{
+    width: 55vw;
+    float: right;
+    position: relative;
+    z-index: 4;
+}
+html body .third .content .sence03 .tree3_2{
+    width: 55vw;
+    margin-top: 12vw;
+    position: relative;
+    z-index: 4;
+}
+html body .third .content .sence03 .font2{
+    overflow-x: hidden;
+    position: relative;
+    float: right;
+    width: 51vw;
+    margin-top: -55vw;
+    margin-right: 2vw;
+    font-size: 4.5vw;
+    z-index: 11;
+}
+html body .third .content .sence03 .font2 p{
+    display: inline-block;
+    font-size: 5vw;
+    color: #e83f3f;
+    z-index: 11;
+}
+html body .third .content .sence03 .tree3_3{
+    width: 75vw;
+    float: right;
+    margin-top: -15vw;
+    position: relative;
+    z-index: 4;
+}
+html body .third .content .sence03 .grape{
+    width: 100vw;
+    margin-top: 0vw;
+    position: relative;
+    top: -20vw;
+    z-index: 4;
+}
+/*html body .third .content .sence03 .fruit{*/
+/*    width: 93vw;*/
+/*    float: right;*/
+/*    margin-top: -17vw;*/
+/*    position: relative;*/
+/*    z-index: 5;*/
+/*}*/
+html body .third .content .sence03 .grass{
+    width: 100vw;
+    margin-top: -67vw;
+    position: relative;
+    z-index: 3;
+}
+html body .third .content .sence03 .font3{
+    position: relative;
+    width: 92vw;
+    font-size: 4.5vw;
+    margin-top: -135vw;
+    margin-left: 6vw;
+    z-index: 11;
+}
+html body .third .content .sence03 .hill3_1{
+    width: 100vw;
+    margin-top: 13vw;
+    position: relative;
+    z-index: 3;
+}
+html body .third .content .sence04 {
+    width: 100vw;
+    position: relative;
+}
+html body .third .content .sence04 .font1{
+    margin-top: 60vw;
+    margin-left: 3vw;
+}
+html body .third .content .sence04 .font1 .dot{
+    vertical-align: top;
+    margin-top: 1.5vw;
+    width: 2.5vw;
+}
+html body .third .content .sence04 .font1 .font1_1{
+    margin-left: 1vw;
+    width: 49vw;
+    display: inline-block;
+    font-size: 4.6vw;
+}
+html body .third .content .sence04 .sculpture{
+    width: 100vw;
+    margin-top: -45vw;
+}
+html body .third .content .sence04 .land4_1{
+    width: 100vw;
+    margin-top: -12vw;
+}
+.font4_1new{
+    width: 85vw;
+    font-size: 4.5vw;
+    margin-top: -8vw;
+    margin-left: 5vw;
+}
+.font4_1old{
+    opacity: 0;
+    width: 85vw;
+    font-size: 4.5vw;
+    margin-top: -8vw;
+    margin-left: 5vw;
+}
+html body .third .content .sence04 .font2{
+    width: 85vw;
+    font-size: 4.5vw;
+    margin-top: -8vw;
+    margin-left: 5vw;
+}
+html body .third .content .sence05{
+     position: relative;
+     width: 100vw;
+ }
+html body .third .content .sence05 .house5_1{
+    position: relative;
+    width: 100vw;
+    margin-top: 10vw;
+    z-index: 5;
+}
+html body .third .content .sence05 .tree5_1{
+    float: right;
+    width: 13vw;
+    margin-top: -37vw;
+    position: relative;
+    z-index: 10;
+}
+html body .third .content .sence05 .road5_1{
+    width: 100vw;
+    margin-top: -23vw;
+    position: relative;
+    z-index: 4;
+}
+html body .third .content .sence05 .tree5_2{
+    width: 55vw;
+    margin-top: -288vw;
+    position: relative;
+    z-index: 10;
+}
+html body .third .content .sence05 .eagle5_2 {
+    position: absolute;
+    top: 80vw;
+    left: 110vw;
+    width: 140px;
+    z-index: 15;
+}
+html body .third .content .sence05 .tree5_3{
+    width: 47vw;
+    float: right;
+    margin-top: -120vw;
+    position: relative;
+    z-index: 10;
+}
+html body .third .content .sence05 .tree5_4{
+    width: 50vw;
+    margin-top: -115vw;
+    position: relative;
+    z-index: 10;
+}
+html body .third .content .sence05 .font1{
+    font-size: 4.5vw;
+    float: left;
+    margin-top: -35vw;
+    margin-left: 6vw;
+    position: relative;
+    z-index: 10;
+}
+html body .third .content .sence05 .font2{
+    width: 97vw;
+    float: left;
+    font-size: 4.5vw;
+    margin-top: -29vw;
+    margin-left: 6vw;
+    position: relative;
+    z-index: 10;
+}
+html body .third .content .sence05 .font3{
+    width: 91vw;
+    font-size: 4.5vw;
+    float: left;
+    margin-left: 6vw;
+    margin-top: -22vw;
+    position: relative;
+    z-index: 10;
+}
+html body .fourth .sence01{
+    width: 100vw;
+    position: relative;
+}
+html body .fourth .sence01 .mountain{
+    width: 100vw;
+    margin-top: 65vw;
+}
+.finalview{
+    position: relative;
+}
+.share{
+    position: fixed;
+    right: 0vw;
+    top: 5vw;
+    width: 40vw;
+    text-align: center;
+    animate-duration: 3s;
+    animate-delay: 2s;
+    display: none;
+    z-index: 999;
+}
+.shareicon{
+    width: 50%;
+}
+.sharefont{
+    margin-top: 2vw;
+    font-size: 4.5vw;
+    font-weight: 600;
+    color: lightslategray;
+}
+
+.final{
+    height: 100vh;
+    width: 100vw;
+}
+
+.safebottom{
+    clear: both;
+    width: 100vw;
+    height: 40vw;
+}
+
+
+
+
+
+
+
